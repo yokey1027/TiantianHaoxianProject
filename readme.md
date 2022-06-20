@@ -1,4 +1,4 @@
-Python Flask订购系统
+
 =====================
 ##启动
 * export ops_config=local|production && python manage.py runserver
@@ -8,7 +8,7 @@ Python Flask订购系统
     flask-sqlacodegen 'mysql://root:123456@127.0.0.1/food_db' --outfile "common/models/model.py"  --flask
     flask-sqlacodegen 'mysql://root:123456@127.0.0.1/food_db' --tables user --outfile "common/models/user.py"  --flask
 
-## 所见即所得编辑器ueditor
+
 
     <script src="{{ buildStaticUrl('/plugins/ueditor/ueditor.config.js') }}"></script>
     <script src="{{ buildStaticUrl('/plugins/ueditor/ueditor.all.min.js') }}"></script>
@@ -37,6 +37,4 @@ Python Flask订购系统
 
 
 
-##可参考资料
-* [python-Flask（jinja2）语法：过滤器](https://www.jianshu.com/p/3127ac233518)
-* [SQLAlchemy 各种查询语句写法](https://wxnacy.com/2017/08/14/python-2017-08-14-sqlalchemy-filter/)
+
